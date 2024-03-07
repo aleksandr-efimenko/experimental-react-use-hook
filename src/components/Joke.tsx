@@ -1,3 +1,4 @@
+//@ts-expect-error use hook is not yet supported by the react-jsx-runtime
 import { use, Suspense } from 'react'
 import { JokeProps, JokeUI } from './JokeUI'
 
